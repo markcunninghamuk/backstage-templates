@@ -1,5 +1,6 @@
 apiVersion: backstage.io/v1alpha1
 kind: Template
+name: ADO Scaffolder
 metadata:
   title: Azure DevOps Pipeline
   description: A template for invoking an Azure DevOps pipeline
