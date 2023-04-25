@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  title: Azure DevOps Pipeline
+  description: A template for invoking an Azure DevOps pipeline
+spec:
+  owner: your-company
+  type: azure-devops-pipeline
+  parameters:
+    - name: sourcePath
+      description: The path to the source code
+      type: string
+    - name: environment
+      description: The target deployment environment
+      type: string
