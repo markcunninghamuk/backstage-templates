@@ -14,3 +14,8 @@ spec:
     - name: environment
       description: The target deployment environment
       type: string
+
+  steps:
+    - id: template
+      name: Fetch Skeleton + Template
+      action: fetch:template
